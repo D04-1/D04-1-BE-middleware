@@ -4,9 +4,9 @@ Eine kleine Übung, um das Schreiben benutzerdefinierter Middleware innerhalb ei
 
 ## Was Sie tun werden
 
-You will be creating a server with two endpoints, both of which will be accepting **POST** requests.
+Sie werden einen Server mit zwei Endpunkten erstellen, die beide **POST**-Anfragen annehmen.
 
-Both of these endpoints will be expecting a JSON object with user data.
+Diese beiden Endpunkte erwarten ein JSON-Objekt mit Benutzerdaten.
 
 ### Example
 
