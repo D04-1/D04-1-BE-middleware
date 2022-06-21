@@ -22,17 +22,17 @@ Diese beiden Endpunkte erwarten ein JSON-Objekt mit Benutzerdaten.
 }
 ```
 
-The endpoints will then read and process this data.
+Die Endpunkte werden dann diese Daten lesen und verarbeiten.
 
-## Tasks
+## Aufgaben
 
-### Task 1 - Getting ready
+### Aufgabe 1 - Vorbereiten
 
-1. Initialise npm into your project with `npm init -y`
-2. Install the express.js npm package `npm i express`
-3. Create the file `server.js`
+1. Initialisiere npm in deinem Projekt mit `npm init -y`
+2. Installiere express.js npm package `npm i express`
+3. Erstelle eine Datei `server.js`
 
-### Task 2 - Setting up your server
+### Aufgabe 2 - Einrichten Ihres Servers
 
 Create your **express.js** server in the `server.js` file
 
