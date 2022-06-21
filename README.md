@@ -34,61 +34,61 @@ Die Endpunkte werden dann diese Daten lesen und verarbeiten.
 
 ### Aufgabe 2 - Einrichten Ihres Servers
 
-Create your **express.js** server in the `server.js` file
+Erstellen Sie **express.js** server in der `server.js`
 
-### Task 3 - Creating the validateUser endpoint
+### Aufgabe 3 - Erstellen des Endpunkts validateUser
 
-Create an endpoint which;
+Erstellen Sie einen Endpunkt, der:
 
-1. Responds to the path `/validateUser`
-2. Responds to **POST** request methods
+1. Responds zum Pfad `/validateUser`
+2. reagiert auf **POST**-Anforderungsmethoden
 
-### Task 4 - Creating middleware
+### Aufgabe 4 - erstelle eine middleware
 
-1. Create a **middleware function** that checks the object contains **values** for the keys `firstName`, `lastName`, `age`, `fbw` and `email`
-2. Create a **middleware function** that will check if the user is above **18** years old
-3. If any of the middleware fails, you should send a response with an **error** message that says why the user is not valid
+1. Erstelle eine **middleware function** die prüft, ob das Objekt **values** für die Schlüssel enthält `firstName`, `lastName`, `age`, `fbw` und `email`
+2. Erstelle eine **middleware function** die prüft, ob der Nutzer über **18** Jahre alt ist
+3. Wenn eine der middlewares fehlschlägt, sollten Sie eine Antwort mit einer **Fehlermeldung** senden, die angibt, warum der Benutzer nicht gültig ist
 
-    #### Example failure response
+    #### Beispiel einer Fehlerreaktion
     ```json
     {
-      "message": "We can not validate your user. They are  below 18 years of age"
+      "message": "We can not validate your user. They are below 18 years of age"
     }
     ```
 
-### Task 5 - Applying the middleware
+### Aufgabe 5 - Anwendung der middleware
 
-1. Apply all the middleware you created in **Task 4** to the **validateUser** endpoint
+1. Wenden Sie die gesamte Middleware, die Sie in **Aufgabe 4** erstellt haben, auf den Endpunkt **validateUser** an
 
-2. If the request passes successfully through the middleware, **validateUser** should send a response with a **success** message
+2. Wenn die Anfrage die Middleware erfolgreich durchläuft, sollte **validateUser** eine Antwort mit einer **Erfolgsmeldung** senden
 
-   #### Example success response
+   #### Beispiel für eine erfolgreiche Antwort
     ```json
     {
       "message" : "This user is valid!"
     }
     ```
 
-### Task 6 - Creating the sanitizeUser endpoint
+### Aufgabe 6 - Erstellen des Endpunkts sanitizeUser
 
-Create an endpoint which;
+Erstellen Sie einen Endpunkt, der:
 
-1. Responds to the path `/sanitizeUser`
-2. Responds to **POST** request methods
+1. Reagiert auf den Pfad `/sanitizeUser`
+2. Reagiert auf **POST**-Anforderungsmethoden
 
-### Task 7 - Creating middleware
+### Aufgabe 7 - Erstelle eine middleware
 
-1. Create a **middleware function** that makes the `firstName` and `lastName` start with a capital letter
-2. Create a **middleware function** that sorts the `favoriteBands` array alphabetically
-3. Create a **middleware function** that will convert `age` and `fbw` to numbers
+1. Erstelle eine **middleware function** die `firstName` und `lastName` mit einem Großbuchstaben beginnen lässt
+2. Erstelle eine **middleware function** die das `favoriteBands` array alphabetisch sortiert
+3. Erstelle eine **middleware function** die `age` und `fbw` zu Zahlen umwandelt
 
-### Task 8 - Applying the middleware
+### Aufgabe 8 - Anwendung der middleware funktion
 
-1. Apply all the middleware you created in **Task 7** to the **sanitizeUser** endpoint
+1. Wenden Sie die gesamte Middleware, die Sie in **Aufgabe 7** erstellt haben, auf den Endpunkt **sanitizeUser** an
 
-2. If the request passes successfully through the middleware, **sanitizeUser** should send a response with the updated **POST** data
+2. Wenn die Anfrage die Middleware erfolgreich durchläuft, sollte **sanitizeUser** eine Antwort mit den aktualisierten **POST**-Daten senden
 
-    #### Example response
+    #### Beispiel response
     
     ```json
     {
