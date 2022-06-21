@@ -1,8 +1,8 @@
 # Server Middleware
 
-A small exercise to practice writing custom middleware within an Express.js server
+Eine kleine Übung, um das Schreiben benutzerdefinierter Middleware innerhalb eines Express.js-Servers zu üben
 
-## What you will be doing
+## Was Sie tun werden
 
 You will be creating a server with two endpoints, both of which will be accepting **POST** requests.
 
