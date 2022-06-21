@@ -1,6 +1,6 @@
 # Server Middleware
 
-Eine kleine Übung, um das Schreiben benutzerdefinierter Middleware innerhalb eines Express.js-Servers zu üben
+Eine Übung, um das Schreiben benutzerdefinierter Middleware innerhalb eines Express.js-Servers zu üben
 
 ## Was Sie tun werden
 
@@ -8,7 +8,7 @@ Sie werden einen Server mit zwei Endpunkten erstellen, die beide **POST**-Anfrag
 
 Diese beiden Endpunkte erwarten ein JSON-Objekt mit Benutzerdaten.
 
-### Example
+### Beispiel
 
 ```json
 {
